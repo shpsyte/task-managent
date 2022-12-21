@@ -2,7 +2,7 @@
 const nextConfig = {
   experimental: {
     appDir: true,
-    serverComponentsExternalPackages: ["bcrypt", "cookie"],
+    serverComponentsExternalPackages: ["bcrypt"],
   },
   typescript: {
     ignoreBuildErrors: true,
